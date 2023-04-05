@@ -42,13 +42,7 @@ namespace Create_Method
         }
         public static int MaxNumber(int number1, int number2)
         {
-            if(number1 < number2)
-            {
-                return number2;
-            }else
-            {
-                return number1;
-            }
+           return(number1<number2) ? number1 : number2;
         }
     }
 }
